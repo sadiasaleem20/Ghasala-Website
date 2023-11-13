@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url('../fonts/CityBoysSoft-Bold.otf');
+	font-family: CityBold;
+}
+
+@font-face{
+	src: url('../fonts/SofiaPro.otf');
+	font-family: Sofia;
+}
+
+p{
+	font-family: Sofia;
+	/*font size:1rem;
+    letter-spacing:0.05rem;*/
+}
+
+.main-p{
+	font-family: Sofia;
+    font-weight:400;
+    letter-spacing:0.07rem;
+    line-height:1.55rem;
+    color: black;
+}
+
+/*navbar starts*/
+
+.navbar{
+	position: absolute;
+/*	background: transparent !important;*/
+	z-index: 2;
+	width: 100%;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.nav-btn{
+	background-color: white;
+}
+
+
+.nav-link{
+	color: white;
+}
+
+.nav-link:hover{
+	color: white;
+}
+
+.name{
+	color: white;
+}
+
+/*carousel starts*/
+
+.hero-img-1{
+background-image:url('../images/bg-1.png');
+background-size:100%;
+background-repeat: no-repeat;
+height:100vh
+}
+
+.hero-img-2{
+background-image:url('../images/bg-2.png');
+background-size:100%;
+background-repeat: no-repeat;
+height:100vh;
+}
+
+.hero-img-3{
+background-image:url('../images/bg-3.png');
+background-size:100%;
+background-repeat: no-repeat;
+height:100vh;
+}
+
+.hero-img-4{
+background-image:url('../images/bg-5.png');
+background-size:100%;
+background-repeat: no-repeat;
+height:100vh;
+}	
+
+.carousel-div{
+	margin-top:21%;
+}
+
+.car-btn{
+	background: rgb(77,44,73);
+    background: linear-gradient(90deg, rgba(77,44,73,1) 0%, rgba(129,102,162,1) 50%, rgba(72,50,72,1) 100%);
+	transition: all 0.3s;
+}
+
+.car-btn:hover{
+	transform: translateY(-10px);
+	background: black;
+}
+
+
+h1,h3,h5,h6{
+  font-family: CityBold;
+}
+
+/*servives starts*/
+
+.services-bg{
+	background-color: #EFEFEF;
+}
+
+.services-h1{
+	color: #4D2C49;
+}
+
+.service-h3{
+	color: #564F9D;
+}
+
+.card-box{
+	height: 100%;
+}
+
+/*contact us starts*/
+
+h6{
+   color: #564F9D;
+   font-family: Sofia;
+}
+
+.c{
+	color: #6a6a6a;
+}
